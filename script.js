@@ -1,7 +1,6 @@
 let imagemAtual = 1;
 const imagemFinal = 5;
 
-
 function proxImagem( img ){
     fetch(`imagens/${img}.jpg`)
         .then(resp => resp.blob())
@@ -20,10 +19,14 @@ window.onload = function(){
     proxImagem(imagemAtual);
 }
 
+    setInterval(function(){
+        proxImagem( imagemAtual++ % max );
+    }, 2000)
+
 window.onscroll = function(){
     let altura = document.body.scrollHeight;
     let scrollPoint = window.scrollY + window.innerHeight;
     if(scrollPoint >= altura){
-        proxImagem( item++ %max)
+        proxImagem( item++ % max)
     }
 }
