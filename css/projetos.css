@@ -1,9 +1,6 @@
 /* Projetos */
 
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     justify-items: center;
     background: url(fundo.jpeg);
     display: grid;
