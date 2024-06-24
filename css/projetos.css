@@ -1,6 +1,7 @@
 /* Projetos */
 
 body{
+    display: flex;
     justify-items: center;
     background: url(fundo.jpeg);
     display: grid;
