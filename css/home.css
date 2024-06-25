@@ -73,6 +73,7 @@ body{
     justify-content: space-around;
     justify-items: center;
     align-items: center;
+    align-self: center;
 }
 
 .svg1{
