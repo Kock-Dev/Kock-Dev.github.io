@@ -50,3 +50,14 @@ a{
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 950px) {
+    .header{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .d1{
+        display: none
+    }
+}
