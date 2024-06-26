@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="script.js" defer></script>
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_undraw_undraw_undraw_sign_up_ln1s_-1-_s4bc_-1-_ee41_-1-_kf4d.svg">
+        </div>
+        <div class="form">
+            <form action="javascript:alert('Formulário aprovado para envio')" method="post" id="formcad">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firtsname">Primeiro Nome</label>
+                        <input id="firtsname" name="firtsname" type="text" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" name="lastname" type="text" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id=email" name="email" type="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" name="number" type="tel" placeholder="(xx) xxxxx-xxxx" minlength="14" maxlength="15" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="pwd">Senha</label>
+                        <input id="pwd" name="pwd" type="password" pattern="(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="pwd2">Confirme sua senha</label>
+                        <input id="pwd2" name="pwd2" type="password" placeholder="Confirme sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="nasc">Data de nascimento</label>
+                        <input type="date" name="nasc" id="nasc" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lic">Aceito os Termos desse Cadastro</label>
+                        <input type="checkbox" name="lic" id="lic" required>
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="other">
+                            <label for="other">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="none">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <input type="submit" value="Enviar"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

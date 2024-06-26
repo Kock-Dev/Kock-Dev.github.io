@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer>
+        function Executa(){
+            const nav_m = document.querySelectorAll(".nav_m")[0]
+            const g1 = document.querySelectorAll(".g1")[0]
+            const titulo = document.querySelectorAll(".titulo")[0]
+            const boneco = document.querySelectorAll(".css-1p66nw2")[0]
+
+            if(nav_m.style.display == "block"){
+                nav_m.style.display = "none"
+                g1.style.display = "block"
+                titulo.style.display = "block"
+                boneco.style.display = "block"
+            }else{
+                nav_m.style.display = "block"
+                g1.style.display = "none"
+                titulo.style.display = "none"
+                boneco.style.display = "none"
+            }
+        }
+    </script>
+    <title> The New York Times </title>
+</head>
+
+<body>
+    <div class="d1">
+        <div class="p1">
+            <svg aria-hidden="true" class="css-1fe7a5q" viewBox="0 0 16 16">
+                <path fill="#333"
+                    d="M11.3,9.2C11.7,8.4,12,7.5,12,6.5C12,3.5,9.5,1,6.5,1S1,3.5,1,6.5S3.5,12,6.5,12c1,0,1.9-0.3,2.7-0.7l3.3,3.3c0.3,0.3,0.7,0.4,1.1,0.4s0.8-0.1,1.1-0.4c0.6-0.6,0.6-1.5,0-2.1L11.3,9.2zM6.5,10.3c-2.1,0-3.8-1.7-3.8-3.8c0-2.1,1.7-3.8,3.8-3.8c2.1,0,3.8,1.7,3.8,3.8C10.3,8.6,8.6,10.3,6.5,10.3z">
+                </path>
+            </svg>
+        </div>
+        <div class="p2">
+            <div class="t1"> U.S. </div>
+            <div class="t2"> INTERNATIONAL </div>
+            <div class="t3"> CANADA </div>
+            <div class="t4"> ESPAÑOL </div>
+            <div class="t5"> 中文 </div>
+        </div>
+        <div class="p3">
+            <div class="pp1"> SUBSCRIBE FOR $0.25/WEEK </div>
+            <div class="pp2"> LOG IN </div>
+        </div>
+    </div>
+
+    <div class="d2">
+        <div class="b1"> Friday, May 17, 2024 Today's Paper </div>
+        <div class="b2"> The New Work Times </div>
+        <div class="b3"> Felipe e Matheus Tonolli </div>
+    </div>
+
+    <div class="nav_m">
+        <ul>
+            <li><a href="/"> U.S. </a></li>
+            <li><a href="/"> World </a></li>
+            <li><a href="/"> Business </a></li>
+            <li><a href="/"> Arts </a></li>
+            <li><a href="/"> Lifestyle </a></li>
+            <li><a href="/"> Opinion </a></li>
+            <li><a href="/"> Audio </a></li>
+            <li><a href="/"> Games </a></li>
+            <li><a href="/"> Cooking </a></li>
+            <li><a href="/"> Wirecutter </a></li>
+            <li><a href="/"> The Athletic </a></li>
+        </ul>    
+    </div>
+
+    <header>
+        <button onclick="Executa()"><svg aria-hidden="true" class="css-1fe7a5q" viewBox="0 0 16 16">
+                <rect x="1" y="3" fill="#333" width="14" height="2"></rect>
+                <rect x="1" y="7" fill="#333" width="14" height="2"></rect>
+                <rect x="1" y="11" fill="#333" width="14" height="2"></rect>
+            </svg></button>
+        <h1 class="titulo"> The New York Times </h1>
+        <svg class="css-1p66nw2" viewBox="0 0 20 20" fill="#333" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path
+                d="M14.2379 6C14.2379 8.20914 12.4471 10 10.2379 10C8.02878 10 6.23792 8.20914 6.23792 6C6.23792 3.79086 8.02878 2 10.2379 2C12.4471 2 14.2379 3.79086 14.2379 6Z"
+                fill="#333"></path>
+            <path
+                d="M16.2355 14.5714C16.2371 14.5477 16.2379 14.5239 16.2379 14.5C16.2379 13.1193 13.5516 12 10.2379 12C6.92421 12 4.23792 13.1193 4.23792 14.5C4.23792 14.5239 4.23872 14.5477 4.24032 14.5714H4.23792V18H16.2379V14.5714H16.2355Z"
+                fill="#333"></path>
+        </svg>
+        <nav id="nav">
+            <ul class="nav-list">
+                <li><a href="/"> U.S. </a></li>
+                <li><a href="/"> World </a></li>
+                <li><a href="/"> Business </a></li>
+                <li><a href="/"> Arts </a></li>
+                <li><a href="/"> Lifestyle </a></li>
+                <li><a href="/"> Opinion </a></li>
+                <li><a href="/"> Audio </a></li>
+                <li><a href="/"> Games </a></li>
+                <li><a href="/"> Cooking </a></li>
+                <li><a href="/"> Wirecutter </a></li>
+                <li><a href="/"> The Athletic </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="d3">
+        <div class="g1">
+            <div class="h1">
+                <div class="title1"> Top U.N. Court Orders Israel to Halt Its Offensive in Rafah </div>
+                <div class="txt1">
+                    <p class="txt11">While the International Court of Justice has no means of enforcing its orders, the
+                        ruling adds to the condemnation that Israel has faced over the war.</p>
+                </div>
+                <div class="title2">Israeli forces recovered the bodies of three more hostages in northern Gaza.</div>
+            </div>
+            <div class="h2">
+                <img src="css/Twtimes.jpeg" class="twtimes" alt="Foto 1">
+            </div>
+        </div>
+        <div class="i"></div>
+        <div class="g2">
+            <div class="h3">
+                <img src="css/velinha.jpg" class="velinha" alt="Foto2">
+            </div>
+            <div class="h4">Ali MacGraw on Her Natural, Beautiful Life</div>
+            <p class="ff">With “Love Story,” she shot to Hollywood stardom at 30. It wasn’t until later that the
+                actress, now 85, found fulfillment in New Mexico</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
