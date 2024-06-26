@@ -181,10 +181,13 @@ button {
 
     .quadro {
         width: 350px;
+        height: 500px;
     }
 
     .foto{
         width: 100%;
+        height: 499px;
+        border-radius: 0 0 0 0 ;
     }
 
     .links{
